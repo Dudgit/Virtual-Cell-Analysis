@@ -19,7 +19,15 @@ Please follow the following folder structure:
 ├── README.md
 ├── trainers/              -> Store here different kind of training routines, everything you work on.  
 └── utils/                 -> All the extra libraries you want to use.  
-
+│   ├── *templates.py           -> If we want to user unified training routines/dataset routines we can put them into classes here.  
+│   └── version1/               -> If you wourk on a specific approach, give it a name and include it here.  
+│       └── model.py
+│       └── dataset.py
+│       └── *extra_utils.py
+│   └── version2/
+│       └── model.py
+│       └── dataset.py
+│       └── *extra_utils.py
 
 TODO: More descriptive readme
 
